@@ -1,0 +1,15 @@
+.activity-card {
+  background-color: whitesmoke !important;
+  overflow: auto !important;
+  max-height: 300px !important;
+  border: 1px solid rgb(71, 70, 70) !important;
+}
+
+.activity-tab {
+  height: 80px !important;
+  width: 100% !important;
+  color: white !important;
+  margin: 8px !important;
+  padding: 10px !important;
+  position: relative !important;
+}

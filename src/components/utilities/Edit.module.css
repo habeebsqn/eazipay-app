@@ -1,0 +1,10 @@
+.edit {
+  flex: 1;
+  margin-top: 40px;
+}
+
+.edit .t1 {
+  font-family: cursive !important;
+  font-size: x-large;
+  padding: 3px;
+}

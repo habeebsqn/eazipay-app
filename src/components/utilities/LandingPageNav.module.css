@@ -1,0 +1,33 @@
+.nav {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  left: 0;
+  padding: 20px 192px;
+  position: absolute;
+  top: 0;
+  width: 1512px;
+}
+
+.navBtn {
+  color: #00271d !important;
+}
+
+.navBtn:hover {
+  border-color: #00271d !important;
+  background-color: #00271d !important;
+  color: white !important;
+}
+
+.navLink {
+  color: darkgray !important;
+  font-family: cursive !important;
+  margin-top: -1px !important;
+  width: fit-content !important;
+}
+
+.navLink:hover {
+  color: dimgrey !important;
+}

@@ -1,0 +1,38 @@
+.bgwrapper {
+  height: 682px;
+  left: 149px;
+  position: absolute;
+  top: 2200px;
+  width: 1099px;
+}
+
+.bg {
+  background-color: #f0f7eb;
+  border: 0px solid #11453b;
+  border-radius: 289px;
+  height: 577px;
+  left: 0;
+  position: absolute;
+  top: 52px;
+  width: 577px;
+}
+
+.bg .wrapper {
+  background-color: #d9ebcd;
+  border-radius: 259px;
+  height: 518px;
+  left: 29px;
+  position: relative;
+  top: 29px;
+  width: 518px;
+}
+
+.bg .ellipse {
+  background-color: #11453b;
+  border-radius: 225px;
+  height: 451px;
+  left: 34px;
+  position: relative;
+  top: 34px;
+  width: 451px;
+}

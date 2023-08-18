@@ -1,0 +1,208 @@
+.footer {
+  align-items: center;
+  background-color: whitesmoke;
+  border-color: #eaeaea;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  gap: 125px;
+  left: 0;
+  padding: 64px 192px;
+  position: absolute;
+  top: 4775px;
+  width: 1512px;
+}
+
+.footer .companyinfo {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 40px;
+  justify-content: center;
+  position: relative;
+}
+
+.footer .copyright {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.footer.logowrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 14.59px;
+  position: relative;
+}
+
+.footer .eazipaylogo {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 274px;
+}
+
+.text-wrapper-20 {
+  color: #515251;
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  margin-right: -172px;
+  margin-top: -1px;
+  position: relative;
+  width: 350px;
+}
+
+.text-wrapper-21 {
+  color: #515251;
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  margin-right: -172px;
+  position: relative;
+  width: 350px;
+}
+
+.groupwrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.vectorwrapper {
+  background-color: #515251;
+  background-image: url(https://generation-sessions.s3.amazonaws.com/7ba4fa1b3195d4090bbda1a4f0a4b156/img/ellipse-788-1.svg);
+  background-size: 100% 100%;
+  border-radius: 16px;
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.vector {
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+
+.imgwrapper {
+  background-color: #515251;
+  background-image: url(https://generation-sessions.s3.amazonaws.com/7ba4fa1b3195d4090bbda1a4f0a4b156/img/ellipse-788.svg);
+  background-size: 100% 100%;
+  border-radius: 16px;
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.links {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  position: relative;
+}
+
+.col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 160px;
+}
+
+.text-wrapper-22 {
+  font-family: cursive;
+  color: #888888;
+  margin-top: -1px;
+  position: relative;
+  width: 160px;
+}
+
+.listitems {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.text-wrapper-23 {
+  color: #7c7c7c;
+  font-family: "Aeonik TRIAL-Regular", Helvetica, serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: 160px;
+}
+
+.text-wrapper-24 {
+  color: #7c7c7c;
+  font-family: "Aeonik TRIAL-Regular", Helvetica, serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  width: 160px;
+}
+
+.emailfield {
+  height: 40px;
+  margin-right: -2px;
+  position: relative;
+  width: 257px;
+}
+
+.overlap {
+  background-color: #f2f1f1;
+  border-radius: 16px;
+  height: 40px;
+  position: relative;
+  width: 255px;
+}
+
+.text-wrapper-25 {
+  color: #515251;
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: 400;
+  left: 16px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  position: absolute;
+  top: 9px;
+  white-space: nowrap;
+}
+
+.div3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}

@@ -1,0 +1,280 @@
+.frame27 {
+  height: 947px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 3816px;
+  width: 1512px;
+}
+
+.overlap4 {
+  height: 1025px;
+  left: 192px;
+  position: relative;
+  top: -191px;
+  width: 1437px;
+}
+
+.frame28 {
+  height: 643px;
+  left: 819px;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  width: 618px;
+}
+
+.group2 {
+  height: 603px;
+  position: relative;
+  top: 39px;
+}
+
+.logos {
+  height: 603px;
+  width: 618px;
+}
+
+.circle-BG {
+  background-color: #f0f7eb80;
+  border: 0.5px solid;
+  border-color: #11453b;
+  border-radius: 301.67px;
+  height: 603px;
+  left: 15px;
+  position: relative;
+  width: 603px;
+}
+
+.overlap4 {
+  background-color: #d9ebcd80;
+  border: 1.24px solid;
+  border-color: #d9ebcd;
+  border-radius: 211.05px;
+  height: 422px;
+  left: 91px;
+  position: relative;
+  top: 91px;
+  width: 422px;
+}
+
+.ellipse5 {
+  background-color: whitesmoke;
+  border: 1px solid #d9ebcd;
+  border-radius: 124px;
+  height: 248px;
+  left: 86px;
+  position: relative;
+  top: 86px;
+  width: 248px;
+}
+
+.frame29 {
+  height: 704px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 1128px;
+}
+
+.frame30 {
+  align-items: center;
+  background-color: #ebf1ef;
+  border: 1px solid;
+  border-color: #e7e8e7;
+  border-radius: 32px;
+  box-shadow: #c9cac9;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  left: 576px;
+  overflow: hidden;
+  padding: 32px;
+  position: absolute;
+  top: 0;
+  width: 552px;
+}
+
+.frame31 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 24px;
+  position: relative;
+}
+
+.frame32 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.text-wrapper-26 {
+  align-self: stretch;
+  font-family: cursive;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.frame-33 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.text-wrapper-27 {
+  color: gray;
+  font-family: "Segoe UI", Tahoma, serif;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 342px;
+}
+
+.navlink {
+  border-color: #e7e8e7 !important;
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+  border: 1px solid;
+  border-radius: 32px;
+  padding: 10px;
+}
+
+.btn {
+  color: white !important;
+  background-color: #4d8177 !important;
+}
+
+.btn:hover {
+  border-color: #00271d !important;
+  background-color: #00271d !important;
+  color: white !important;
+}
+
+.frame36 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 0;
+  position: absolute;
+  top: 195px;
+  width: 552px;
+}
+
+.frame37 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.exclusive {
+  align-self: stretch;
+  color: #11453b;
+  font-family: "MADE Mellow PERSONAL USE-Medium", Helvetica;
+  font-size: 64px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 72px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.frame38 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 435px;
+}
+
+.text-wrapper-31 {
+  color: #515251;
+  font-family: cursive;
+  margin-top: -1px;
+  position: relative;
+  width: 435px;
+}
+
+.frame39 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 208px;
+  left: -146px;
+  position: absolute;
+  top: -22px;
+  transform: rotate(-90deg);
+  width: 107px;
+}
+
+.frame40 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 21px;
+  margin-right: -27px;
+  position: relative;
+}
+
+.ellipse6 {
+  background-color: #11453b;
+  border-radius: 5px;
+  height: 10px;
+  opacity: 0;
+  position: relative;
+  width: 10px;
+}
+
+.ellipse7 {
+  background-color: #11453b;
+  border-radius: 5px;
+  height: 10px;
+  position: relative;
+  width: 10px;
+}
+
+.frame41 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 21px;
+  margin-right: -58px;
+  position: relative;
+}
+
+.frame42 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 21px;
+  margin-bottom: -10px;
+  margin-right: -58px;
+  position: relative;
+}

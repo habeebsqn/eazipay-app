@@ -1,0 +1,38 @@
+.container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.set {
+  background-color: whitesmoke !important;
+  position: relative !important;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: larger;
+}
+
+.set .t {
+  text-align: center;
+  font-family: cursive;
+}
+
+.set2 {
+  background-color: whitesmoke !important;
+  position: relative !important;
+  margin-top: 20px !important;
+}
+
+.set2 .title {
+  text-align: center;
+  padding: 5px;
+  margin: 1rem;
+  border: 1px solid black;
+  font-family: cursive;
+  font-size: medium;
+}
+
+.set2 .title:hover {
+  background-color: #aad2c8;
+}

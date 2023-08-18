@@ -1,0 +1,49 @@
+.quick-action {
+  box-shadow: 0 0 120px 1px #aeaeae !important;
+  border: none !important;
+  width: 100% !important;
+  position: relative;
+}
+
+.quick-action:hover {
+  box-shadow: 0 0 100px 5px #aeaeae !important;
+}
+
+.icon-div {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  background-color: #a2c3bb;
+}
+
+@media (max-width: 862px) {
+  .icon-div {
+    position: relative;
+    max-height: 20px;
+    max-width: 20px;
+    margin: auto;
+    border-radius: 12px;
+    background-color: #a2c3bb;
+  }
+}
+
+.icon-div:hover {
+  box-shadow: 0 0 100px 5px #aeaeae !important;
+}
+
+.action-link {
+  text-decoration-line: none;
+  color: #80b7a9;
+}
+.action-link:hover {
+  color: #03513d;
+  text-shadow: 0 0 80px 5px #a29f9f;
+}
+
+.action-text {
+  font-family: cursive;
+  font-size: small;
+  text-align: center;
+}

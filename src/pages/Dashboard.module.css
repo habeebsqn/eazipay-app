@@ -1,0 +1,19 @@
+.container {
+  margin: 5rem;
+}
+
+.container h4 {
+  font-size: large;
+  font-family: cursive !important;
+  font-weight: 100;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+.container p {
+  color: #515251;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  font-family: cursive !important;
+}
