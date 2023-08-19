@@ -19,7 +19,7 @@ import {
 
 const SiderBarNav = () => {
   const navTabs = [
-    { title: "Dashboard", icon: faSquarePollHorizontal, link: "dashboard" },
+    { title: "Dashboard", icon: faSquarePollHorizontal, link: "/dashboard" },
     { title: "Wallet", icon: faWallet },
     {
       title: "Employee management",
