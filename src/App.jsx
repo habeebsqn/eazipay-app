@@ -13,10 +13,10 @@ function App() {
       children: [
         { index: true, element: <LandingPage /> },
         {
-          path: "user",
+          path: "dashboard",
           element: <UserLayout />,
           children: [
-            { index: true, path: "dashboard", element: <Dashboard /> },
+            { index: true, element: <Dashboard /> },
             { path: "settings", element: <Settings /> },
           ],
         },

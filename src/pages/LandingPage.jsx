@@ -9,15 +9,17 @@ import { Container } from "react-bootstrap";
 
 const LandingPage = () => {
   return (
-    <Container fluid className={classes["landing-page"]}>
-      <div className={classes["landing-page-wrapper"]}>
-        <ScreenOne>
-          <LandingPageNav />
-        </ScreenOne>
-        <ScreenTwo />
-        <ScreenThree />
-        <Footer />
-        <ScreenFour />
+    <Container fluid className={classes.container}>
+      <div className={classes["landing-page"]}>
+        <div className={classes["landing-page-wrapper"]}>
+          <ScreenOne>
+            <LandingPageNav />
+          </ScreenOne>
+          <ScreenTwo />
+          <ScreenThree />
+          <Footer />
+          <ScreenFour />
+        </div>
       </div>
     </Container>
   );

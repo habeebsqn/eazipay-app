@@ -9,7 +9,7 @@ const LandingPageNav = () => {
 
   const handleLogin = (event) => {
     event.preventDefault();
-    navigate("user");
+    navigate("dashboard");
   };
 
   return (
