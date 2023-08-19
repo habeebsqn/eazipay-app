@@ -16,15 +16,8 @@ function App() {
           path: "user",
           element: <UserLayout />,
           children: [
-            {
-              index: true,
-              path: "dashboard",
-              element: <Dashboard />,
-            },
-            {
-              path: "settings",
-              element: <Settings />,
-            },
+            { index: true, path: "dashboard", element: <Dashboard /> },
+            { path: "settings", element: <Settings /> },
           ],
         },
       ],

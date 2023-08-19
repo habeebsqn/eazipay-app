@@ -15,7 +15,7 @@ import {
   faPhone,
   faGears,
 } from "@fortawesome/free-solid-svg-icons";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 const TopBarNav = () => {
   const navTabs = [
     { title: "Dashboard", icon: faSquarePollHorizontal, link: "dashboard" },
@@ -31,6 +31,13 @@ const TopBarNav = () => {
     { title: "Support", icon: faPhone },
     { title: "Settings", icon: faGears, link: "settings" },
   ];
+
+  const getPathName = () => {
+    const location = useLocation();
+    const path = location.pathname.split("/");
+    const displayPath = path[path.length - 1];
+    return displayPath;
+  };
 
   return (
     <div className={classes.topNav}>
@@ -93,7 +100,7 @@ const TopBarNav = () => {
         className="bg-body-tertiary mb-3 d-lg-none d-xl-none d-md-block d-sm-block "
       >
         <Container fluid>
-          <Navbar.Brand to={"/"} as={NavLink}>
+          <Navbar.Brand>
             <span className="ps-3">
               <FontAwesomeIcon icon={faBell} />
             </span>
@@ -103,7 +110,7 @@ const TopBarNav = () => {
             as={NavLink}
             className="justify-content-center text-bold"
           >
-            Settings
+            {getPathName()}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
           <Navbar.Offcanvas>
@@ -115,7 +122,7 @@ const TopBarNav = () => {
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 {navTabs.map((nav) => (
-                  <Nav.Link as={NavLink} to={nav.link}>
+                  <Nav.Link as={NavLink} to={nav.link} key={nav.title}>
                     <span className="p-2">
                       <FontAwesomeIcon icon={nav.icon} />
                     </span>
