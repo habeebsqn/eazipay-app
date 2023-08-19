@@ -2,3 +2,9 @@
   background-color: #80b7a9 !important;
   font-family: "Segoe UI", Tahoma, sans-serif !important;
 }
+
+@media (max-width: 979px) {
+  .box {
+    margin-top: 80px;
+  }
+}

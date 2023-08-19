@@ -1,31 +1,21 @@
 .quick-action {
-  box-shadow: 0 0 120px 1px #aeaeae !important;
+  box-shadow: 0 0 350px 1px #c6c5c5 !important;
   border: none !important;
   width: 100% !important;
-  position: relative;
+  position: relative !important;
 }
 
 .quick-action:hover {
   box-shadow: 0 0 100px 5px #aeaeae !important;
 }
 
-.icon-div {
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  margin-bottom: 25px;
-  border-radius: 12px;
-  background-color: #a2c3bb;
-}
-
-@media (max-width: 862px) {
-  .icon-div {
-    position: relative;
-    max-height: 20px;
-    max-width: 20px;
-    margin: auto;
-    border-radius: 12px;
-    background-color: #a2c3bb;
+@media (max-width: 979px) {
+  .quick-action {
+    box-shadow: 0 0 350px 1px #aeaeae !important;
+    border: none !important;
+    width: 100% !important;
+    position: relative !important;
+    margin-top: 15px;
   }
 }
 

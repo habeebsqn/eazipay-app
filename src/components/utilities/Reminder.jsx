@@ -10,7 +10,7 @@ const Reminder = () => {
   const day = currentDate.getDay();
   const formattedDate = `${month}/${day}/${year}`;
   return (
-    <Card className="text-center flex-fill">
+    <Card className={`text-center flex-fill ${classes.box}`}>
       <Card.Header className={classes.reminderH}>Next Payroll</Card.Header>
       <Card.Body>
         <Card.Text className="text-bold">

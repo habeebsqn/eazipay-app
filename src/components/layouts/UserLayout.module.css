@@ -6,7 +6,7 @@
   padding: 50px;
 }
 
-@media (max-width: 864px) {
+@media (max-width: 979px) {
   .main {
     margin-left: 0;
     margin-top: 102;

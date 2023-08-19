@@ -7,7 +7,7 @@ const QuickAction = (props) => {
   const { action, icon } = props.action;
   return (
     <Card
-      className={`"flex-fill text-center" ${classes["quick-action"]}`}
+      className={`flex-fill text-center ${classes["quick-action"]}`}
       bg="light"
     >
       <Card.Body>
