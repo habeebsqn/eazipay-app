@@ -18,7 +18,7 @@ import {
 import { NavLink, useLocation } from "react-router-dom";
 const TopBarNav = () => {
   const navTabs = [
-    { title: "Dashboard", icon: faSquarePollHorizontal, link: "dashboard" },
+    { title: "Dashboard", icon: faSquarePollHorizontal, link: "/dashboard" },
     { title: "Wallet", icon: faWallet },
     {
       title: "Employee management",
