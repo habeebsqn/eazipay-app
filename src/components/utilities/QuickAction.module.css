@@ -43,7 +43,7 @@
 }
 
 .action-text {
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   font-size: small;
   text-align: center;
 }

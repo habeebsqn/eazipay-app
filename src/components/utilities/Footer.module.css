@@ -55,7 +55,7 @@
 
 .text-wrapper-20 {
   color: #515251;
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.25px;
@@ -68,7 +68,7 @@
 
 .text-wrapper-21 {
   color: #515251;
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.25px;
@@ -132,7 +132,7 @@
 }
 
 .text-wrapper-22 {
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   color: #888888;
   margin-top: -1px;
   position: relative;
@@ -188,7 +188,7 @@
 
 .text-wrapper-25 {
   color: #515251;
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   font-size: 14px;
   font-weight: 400;
   left: 16px;

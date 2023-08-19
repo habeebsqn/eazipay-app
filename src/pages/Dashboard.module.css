@@ -4,7 +4,7 @@
 
 .container h4 {
   font-size: large;
-  font-family: cursive !important;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   font-weight: 100;
   position: relative;
   white-space: nowrap;
@@ -15,5 +15,5 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
-  font-family: cursive !important;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
 }

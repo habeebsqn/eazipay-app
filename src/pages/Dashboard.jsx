@@ -130,6 +130,7 @@ const Dashboard = () => {
           <Reminder />
         </Col>
       </Row>
+
       <Row>
         <Col className="d-flex align-items-stretch mt-5">
           <Charts />

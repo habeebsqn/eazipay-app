@@ -23,7 +23,7 @@
 
 .navLink {
   color: darkgray !important;
-  font-family: cursive !important;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   margin-top: -1px !important;
   width: fit-content !important;
 }

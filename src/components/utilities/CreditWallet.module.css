@@ -10,14 +10,14 @@
 
 .title {
   color: #03513d;
-  font-family: cursive !important;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   text-align: center !important;
   padding: 40px;
 }
 
 .balance {
   color: #ffffff;
-  font-family: cursive !important;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   color: #03513d;
   font-size: large;
   padding-left: 40px;
@@ -27,7 +27,7 @@
 .btn {
   color: #03513d !important;
   background-color: #aad2c8 !important;
-  font-family: cursive !important;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   padding: 1rem !important;
 }
 

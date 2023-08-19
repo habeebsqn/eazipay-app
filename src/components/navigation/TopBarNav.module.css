@@ -62,7 +62,7 @@
 
 .text-wrapper-34 {
   color: #515251;
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   margin-top: -1px;
   position: relative;
   white-space: nowrap;
@@ -72,7 +72,7 @@
 .text-wrapper-35 {
   align-self: stretch;
   color: #515251;
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   height: 17px;
 
   position: relative;

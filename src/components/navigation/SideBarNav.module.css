@@ -7,8 +7,6 @@
   box-shadow: 0 0 50px 5px #d0cfcf;
 }
 
-
-
 .sidebar-sticky {
   position: fixed;
   top: 150px; /* Height of navbar */
@@ -35,7 +33,7 @@
 .nav-item .nav-link {
   font-weight: 500 !important;
   color: #333 !important;
-  font-family: cursive !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
 }
 
 .active {

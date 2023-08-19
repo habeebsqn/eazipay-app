@@ -118,7 +118,7 @@
 
 .text-wrapper-26 {
   align-self: stretch;
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 0;
@@ -215,7 +215,7 @@
 
 .text-wrapper-31 {
   color: #515251;
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   margin-top: -1px;
   position: relative;
   width: 435px;

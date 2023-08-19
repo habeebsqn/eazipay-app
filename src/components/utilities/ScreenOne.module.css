@@ -148,7 +148,7 @@
 
 .frame12 .text-wrapper-5 {
   color: #515251;
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
   margin-top: -1px;
   position: relative;
   white-space: nowrap;
@@ -165,7 +165,7 @@
 
 .btn {
   color: white !important;
-  font-family: cursive !important;
+  font-family: "Segoe UI", Tahoma, sans-serif !important;
 }
 
 .btn:hover {
