@@ -6,13 +6,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const QuickAction = (props) => {
   const { action, icon } = props.action;
   return (
-    <Card
-      className={`flex-fill text-center ${classes["quick-action"]}`}
-      bg="light"
-    >
+    <Card className={`flex-fill text-center ${classes["quick-action"]}`}>
       <Card.Body>
         <Card.Title>
-          <div className="text-center pt-3">
+          <div className="text-center">
             <FontAwesomeIcon icon={icon} />
           </div>
         </Card.Title>

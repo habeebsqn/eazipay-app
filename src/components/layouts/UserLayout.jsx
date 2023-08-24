@@ -7,7 +7,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const UserLayout = () => {
   return (
-    <Container fluid className="p-0">
+    <Container fluid>
       <Row>
         <Col className="p-0">
           <TopBarNav />

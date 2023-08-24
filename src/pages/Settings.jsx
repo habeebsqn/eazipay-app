@@ -17,7 +17,7 @@ const Settings = () => {
       <Row>
         <Col>
           <Card className={classes.set2}>
-            <Row>
+            <Row xs={2}>
               <Col sm={6}>
                 {" "}
                 <Card.Title className={classes.title}>Company</Card.Title>
@@ -26,8 +26,6 @@ const Settings = () => {
                 {" "}
                 <Card.Title className={classes.title}>CEO/Founder</Card.Title>
               </Col>
-            </Row>
-            <Row>
               <Col sm={6}>
                 <Card.Title className={classes.title}>
                   Company Director
@@ -35,9 +33,7 @@ const Settings = () => {
               </Col>
               <Col sm={6}>
                 {" "}
-                <Card.Title className={classes.title}>
-                  Acount Information
-                </Card.Title>
+                <Card.Title className={classes.title}>Acount Info</Card.Title>
               </Col>
             </Row>
           </Card>

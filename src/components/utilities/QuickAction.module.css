@@ -1,8 +1,9 @@
 .quick-action {
-  box-shadow: 0 0 350px 1px #c6c5c5 !important;
+  box-shadow: 0 0 450px 1px #c6c5c5 !important;
   border: none !important;
   width: 100% !important;
   position: relative !important;
+  margin: 15px;
 }
 
 .quick-action:hover {
@@ -11,11 +12,9 @@
 
 @media (max-width: 979px) {
   .quick-action {
-    box-shadow: 0 0 350px 1px #aeaeae !important;
     border: none !important;
     width: 100% !important;
     position: relative !important;
-    margin-top: 15px;
   }
 }
 
@@ -34,6 +33,6 @@
 
 .action-text {
   font-family: "Segoe UI", Tahoma, sans-serif !important;
-  font-size: small;
+  font-size: x-small;
   text-align: center;
 }

@@ -106,16 +106,16 @@ const Dashboard = () => {
       </Container>
       <Row>
         <Col lg={8} sm={12}>
-          <Row sm={1}>
-            <Col className="d-flex align-items-stretch mb-5">
+          <Row>
+            <Col md={12} className="d-flex align-items-stretch mb-5">
               <CreditWallet />
             </Col>
 
-            <Col>
-              <Row lg={4}>
+            <Col md={12} className={classes.action}>
+              <Row xs={3} md={3}>
                 {actions.map((action) => (
                   <Col
-                    className="d-flex align-items-stretch"
+                    className="d-flex align-items-stretch p-0"
                     key={action.action}
                   >
                     <QuickAction action={action} key={action.icon} />
