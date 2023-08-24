@@ -134,7 +134,12 @@ const TopBarNav = () => {
           />
           <Navbar.Offcanvas show={expanded}>
             <Offcanvas.Header>
-              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
+              <Offcanvas.Title
+                as={NavLink}
+                to={"/"}
+                id={`offcanvasNavbarLabel-expand-md`}
+                style={{ textDecorationLine: "none", color: "green" }}
+              >
                 EAZIPAY
               </Offcanvas.Title>
             </Offcanvas.Header>
