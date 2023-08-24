@@ -1,5 +1,5 @@
-import React from "react";
-import { Navbar, Container, Offcanvas, Nav } from "react-bootstrap";
+import React, { useState } from "react";
+import { Navbar, Container, Offcanvas, Nav, Collapse } from "react-bootstrap";
 import classes from "./TopBarNav.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -17,6 +17,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink, useLocation } from "react-router-dom";
 const TopBarNav = () => {
+  const [expanded, setExpanded] = useState(false);
+
   const navTabs = [
     { title: "Dashboard", icon: faSquarePollHorizontal, link: "/dashboard" },
     { title: "Wallet", icon: faWallet },
@@ -39,8 +41,18 @@ const TopBarNav = () => {
     return displayPath;
   };
 
+  const handleNavClick = () => {
+    setExpanded(false);
+  };
+
+  const onToggle = () => {
+    setExpanded(!expanded);
+  };
+
   return (
     <div className={classes.topNav}>
+      {/* desktop view top navigation */}
+
       <Navbar
         bg="light"
         className="position-sticky d-none d-lg-block d-xl-block p-0 shadow-lg"
@@ -95,6 +107,10 @@ const TopBarNav = () => {
         </Navbar.Collapse>
       </Navbar>
 
+      {/* desktop view top navigation */}
+
+      {/* mobile view top navigation */}
+
       <Navbar
         expand="false"
         className="bg-body-tertiary mb-3 d-lg-none d-xl-none d-md-block d-sm-block "
@@ -112,28 +128,40 @@ const TopBarNav = () => {
           >
             {getPathName()}
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
-          <Navbar.Offcanvas>
-            <Offcanvas.Header closeButton>
+          <Navbar.Toggle
+            aria-controls={`offcanvasNavbar-expand-md`}
+            onClick={onToggle}
+          />
+          <Navbar.Offcanvas show={expanded}>
+            <Offcanvas.Header>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
-                Offcanvas
+                EAZIPAY
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
-                {navTabs.map((nav) => (
-                  <Nav.Link as={NavLink} to={nav.link} key={nav.title}>
-                    <span className="p-2">
-                      <FontAwesomeIcon icon={nav.icon} />
-                    </span>
-                    {nav.title}
-                  </Nav.Link>
-                ))}
-              </Nav>
+              <Collapse in={expanded}>
+                <Nav className="justify-content-end flex-grow-1 pe-3">
+                  {navTabs.map((nav) => (
+                    <Nav.Link
+                      as={NavLink}
+                      to={nav.link}
+                      key={nav.title}
+                      onClick={handleNavClick}
+                    >
+                      <span className="p-2">
+                        <FontAwesomeIcon icon={nav.icon} />
+                      </span>
+                      {nav.title}
+                    </Nav.Link>
+                  ))}
+                </Nav>
+              </Collapse>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
+
+      {/* mobile view top navigation */}
     </div>
   );
 };

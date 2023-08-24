@@ -13,7 +13,7 @@ const Edit = () => {
       <Card.Header className={classes.t1}>Edit Company Information</Card.Header>
       <Card.Body>
         <Card.Body>
-          <img src="..." class="img-thumbnail" alt="..." />
+          <img className="img-thumbnail" alt="..." />
           <Button variant="outline-light" size="sm">
             Success
           </Button>
